@@ -1,0 +1,211 @@
+/*  General Styles*/
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h3{
+  text-shadow: 0px 0px 1px rgb(41, 40, 40);
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-shadow: 0px 0px 4px rgb(41, 40, 40);
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-shadow: 0px 0px 1px rgb(41, 40, 40);
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #6b0f1a;
+  background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+
+  color: #fff;
+}
+
+.white-section {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 1));
+  background: -webkit-linear-gradient(316deg, #f7d2d1 0%, #af260d 74%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.5);
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+
+}
+
+.btn{
+  text-shadow: 0px 0px 1px rgb(41, 40, 40);
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1rem;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: 0px 0px 1px rgb(41, 40, 40);
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Sacramento", cursive;
+  background: -webkit-linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .card-body 
+  {
+    background-color: #8f8f8f;
+  
+}
