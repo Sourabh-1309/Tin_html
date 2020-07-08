@@ -161,6 +161,10 @@ p {
   border-radius: 100%;
   margin: 20px;
 }
+.card-body 
+  {
+    background-color: #8f8f8f;
+  }
 
 #press {
   background-color: #ef8172;
@@ -206,9 +210,6 @@ p {
   }
   
 }
-.card-body 
-  {
-    background-color: #8f8f8f;
-  }
+
   
 
